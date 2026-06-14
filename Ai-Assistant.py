@@ -3,7 +3,7 @@ url = "https://api.openai.com/v1/chat/completions"
 api_key = input("Please enter your API Key: ")
 
 headers = {
-    "Authorization": "Bearer {api_key}",
+    "Authorization": f"Bearer {api_key}",
     "Content-Type": "application/json"
 }
 
